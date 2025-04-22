@@ -6,4 +6,6 @@ int main(int, char **)
     std::cin >> a >> b;
 
     std::cout << a + b << "\n";
+
+    return 0;
 }

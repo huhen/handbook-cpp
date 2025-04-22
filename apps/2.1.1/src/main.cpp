@@ -7,4 +7,6 @@ int main(int, char **)
                  "  - supports data abstraction\n"
                  "  - supports object-oriented programming\n"
                  "  - supports generic programming.\n";
+
+    return 0;
 }
