@@ -11,6 +11,8 @@ add_subdirectory(libs/utils)
 add_subdirectory(apps/helloworld)
 add_subdirectory(apps/2.1.1)
 add_subdirectory(apps/2.1.2)
+add_subdirectory(apps/2.2.1)
+add_subdirectory(apps/2.2.2)
 
 #add_executable(helloworld helloworld.cpp)
 
