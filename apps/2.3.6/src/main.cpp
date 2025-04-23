@@ -1,13 +1,18 @@
 #include <iostream>
 
-int main(int, char **)
-{
-    const double inch = 2.54;
+int main(int, char**) {
+    int n;
+    std::cin >> n;
 
-    double cm;
-    std::cin >> cm;
+    int sum = 0;
 
-    std::cout << cm / inch << "\n";
+    while (n != 0)
+    {
+        sum += n % 10;
+        n /= 10;
+    }
+
+    std::cout << sum << "\n";
 
     return 0;
 }

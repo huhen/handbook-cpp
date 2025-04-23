@@ -1,13 +1,18 @@
 #include <iostream>
+#include <cmath>
 
-int main(int, char **)
-{
-    const double inch = 2.54;
+int main(int, char**) {
+    int n;
+    std::cin >> n;
 
-    double cm;
-    std::cin >> cm;
+    double ln2 = 1;
 
-    std::cout << cm / inch << "\n";
+    for (int k = 2; k <= n; ++k)
+    {
+        ln2 += std::pow(-1, k + 1) / k;
+    }
+
+    std::cout << ln2 << "\n";
 
     return 0;
 }

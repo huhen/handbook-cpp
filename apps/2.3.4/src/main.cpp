@@ -1,13 +1,20 @@
 #include <iostream>
 
-int main(int, char **)
-{
-    const double inch = 2.54;
+int main(int, char**) {
+    int m, yar;
+    std::cin >> m >> yar;
 
-    double cm;
-    std::cin >> cm;
+    int n;
 
-    std::cout << cm / inch << "\n";
+    if (m == 2) {
+        n = (yar % 400 == 0 || (yar % 100 != 0 && yar % 4 == 0)) ? 29 : 28;
+    } else if (m < 8) {
+        n = m & 1 ? 31 : 30;
+    } else {
+        n = m & 1 ? 30 : 31;
+    }
+
+    std::cout << n << "\n";
 
     return 0;
 }

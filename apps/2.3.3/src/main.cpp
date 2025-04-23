@@ -1,13 +1,14 @@
 #include <iostream>
 
-int main(int, char **)
-{
-    const double inch = 2.54;
+int main(int, char**) {
+    int yar;
+    std::cin >> yar;
 
-    double cm;
-    std::cin >> cm;
-
-    std::cout << cm / inch << "\n";
+    if (yar % 400 == 0 || (yar % 100 != 0 && yar % 4 == 0)) {
+        std::cout << "YES\n";
+    } else {
+        std::cout << "NO\n";
+    }
 
     return 0;
 }
