@@ -9,10 +9,20 @@ add_link_options(-fsanitize=address,undefined -Wall -Wextra -Werror)
 
 add_subdirectory(libs/utils)
 add_subdirectory(apps/helloworld)
+
 add_subdirectory(apps/2.1.1)
 add_subdirectory(apps/2.1.2)
+
 add_subdirectory(apps/2.2.1)
 add_subdirectory(apps/2.2.2)
+
+add_subdirectory(apps/2.3.1)
+add_subdirectory(apps/2.3.2)
+add_subdirectory(apps/2.3.3)
+add_subdirectory(apps/2.3.4)
+add_subdirectory(apps/2.3.5)
+add_subdirectory(apps/2.3.6)
+add_subdirectory(apps/2.3.7)
 
 #add_executable(helloworld helloworld.cpp)
 
