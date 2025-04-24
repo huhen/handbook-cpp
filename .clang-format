@@ -1,3 +1,4 @@
+BasedOnStyle: LLVM
 Language:        Cpp
 AccessModifierOffset: -4
 ConstructorInitializerIndentWidth: 4
@@ -46,12 +47,13 @@ IndentWidth:     4
 TabWidth:        4
 UseTab:          Never
 BreakBeforeBraces: Attach
+#BreakBeforeBraces: Custom
 InsertBraces: true
 
 # NB: BraceWrapping has no effect unless BreakBeforeBraces is set to Custom
 BraceWrapping:
     AfterClass: false
-    AfterControlStatement: false
+    AfterControlStatement: MultiLine
     AfterEnum: false
     AfterFunction: false
     AfterNamespace: false
