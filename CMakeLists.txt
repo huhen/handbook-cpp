@@ -24,6 +24,13 @@ add_subdirectory(apps/2.3.5)
 add_subdirectory(apps/2.3.6)
 add_subdirectory(apps/2.3.7)
 
+add_subdirectory(apps/2.4.1)
+add_subdirectory(apps/2.4.2)
+add_subdirectory(apps/2.4.3)
+add_subdirectory(apps/2.4.4)
+add_subdirectory(apps/2.4.5)
+add_subdirectory(apps/2.4.6)
+
 #add_executable(helloworld helloworld.cpp)
 
 #include(CTest)

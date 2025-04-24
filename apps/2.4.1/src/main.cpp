@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main(int, char **)
-{
+int main(int, char**) {
     const double inch = 2.54;
 
     double cm;

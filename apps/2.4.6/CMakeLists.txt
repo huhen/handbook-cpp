@@ -1,4 +1,4 @@
-add_executable(2.2.1
+add_executable(2.4.6
     src/main.cpp
 )
 
@@ -8,4 +8,4 @@ add_executable(2.2.1
 #         utils
 # )
 
-install(TARGETS 2.2.1 DESTINATION bin)
+install(TARGETS 2.4.6 DESTINATION bin)
